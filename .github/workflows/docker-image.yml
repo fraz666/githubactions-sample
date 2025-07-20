@@ -25,4 +25,4 @@ jobs:
       uses: docker/build-push-action@v6.18.0
       with:
         push: true
-        tags: fraz666/sample:latest, fraz666/sample:${{ github.sha }})
+        tags: fraz666/sample:latest, fraz666/sample:${{ github.sha }}
